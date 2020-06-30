@@ -1,0 +1,90 @@
+<div class="order">
+    <section class="order-summary">
+        <div class="p-grid">
+            <div class="p-col-6 mobile-res">
+                <h2 class="title-summary">
+                    {{'checkout.order_summary' | translate}}
+                </h2>
+            </div>
+            <div class="p-col-6 mobile-res" style="text-align: left;">
+                <img [src]="imagePath" alt="{{companyName}}" style="width:100%;">
+            </div>
+        </div>
+
+
+        <div class="gold-tier">
+            <div class="p-grid">
+                <div class="p-col-6">
+                    <h4> {{ 'checkout.tier' | translate }} : {{planSelected}}</h4>
+                    <ul class="package-offers">
+                        <li class="offer" *ngFor="let item of convertObjectToValues(planData)[0]['benefit']">
+                            {{convertObjectToValues(item)[0] }} {{convertObjectToKeys(item)[0]}}
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="p-col-6">
+                    <div class="package-price">
+                        <p style="margin-top: 27px;">
+                            <span class="price-num">{{convertObjectToValues(planData)[0]['month_price'] | number:'1.0-0'}}</span>
+                            <span class="currency">{{'compare.currency_and_date' | translate}}</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="link-terms-conditions">{{ 'checkout.terms' | translate}}</a>
+        </div>
+
+        <div class="subtotal">
+            <div class="p-grid">
+                <div class="p-col">
+                    <h4>{{ 'checkout.subtotal' | translate}}</h4>
+                </div>
+                <div class="p-col">
+                    <div class="package-price">
+                        <p>
+                            <span class="price-num">{{convertObjectToValues(planData)[0]['month_price'] | number:'1.0-0'}}</span>
+                            <span class="currency">{{'compare.currency_and_date' | translate}}</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="total">
+            <div class="p-grid">
+                <div class="p-col">
+                    <h4>{{ 'checkout.total' | translate }}</h4>
+                </div>
+                <div class="p-col">
+                    <div class="package-price-total">
+                        <p style="margin-top:10px;">
+                            <span class="price-num">{{convertObjectToValues(planData)[0]['month_price'] | number:'1.0-0'}}</span>
+                            <span class="currency">{{'compare.currency_and_date' | translate}}</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <p-toast position="center"></p-toast>
+    <!-- [disabled]="!form.valid && !chk_val" -->
+    <button *ngIf="load  != true" style="background:#f40d82 !important; color:white !important;" type="button" class="request-policy" (click)="onClick()">{{ 'checkout.policy' | translate }}</button>
+    <p-progressSpinner *ngIf="load  == true"></p-progressSpinner>
+    <div class="check-terms-conditions">
+        <p-checkbox name="groupname" value="val1" (onChange)="getCheck($event)"></p-checkbox><span class="title"> {{ 'checkout.confirm' |  translate}}</span>
+    </div>
+    <h4 class="title-termin-and-conditions">{{'checkout.terms' | translate}}:</h4>
+    <ol class="terms-conditions">
+
+        <li>المبلغ المدفوع تحت حساب طلب إصدار الوثيقة</li>
+        <li>يحق لشركة التأمين تعديل السعر قبل الإصدار</li>
+        <li>تبدأ التغطية التأمينية من بعد إصدار الوثيقة وتحصيل كامل الرسوم</li>
+    </ol>
+</div>

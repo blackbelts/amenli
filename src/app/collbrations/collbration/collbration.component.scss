@@ -1,0 +1,143 @@
+/* .img-res {
+    width: var(--width);
+    height: var(--height);
+}
+.ui-carousel {
+    width: 100%;
+  }
+
+  .ui-carousel-item {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+  }
+
+  .ui-carousel-items{
+    width: 100%;
+  }
+
+  .ui-carousel-viewport{
+    width: 100%;
+  }
+
+ .ui-carousel-header{
+    background-color: #007aff;
+  } */
+  /* .gallery {
+    background: white;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background:white;
+    /* counter-increment: gallery-cell; */
+  /* } */
+  
+  /* cell number */
+  /* .gallery-cell:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    /* line-height: 200px;
+    font-size: 80px; */
+    /* color: white; */
+  /* }  */
+  /* external css: flickity.css */
+
+/* * { box-sizing: border-box; }
+
+body { font-family: sans-serif; } */
+
+/* .carousel {
+  background: white;
+} */ 
+
+/* .carousel-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  /* background: #8C8; */
+  /* border-radius: 5px; */
+  /* counter-increment: carousel-cell; */
+/* }  */
+
+/* .carousel-cell.is-selected { */
+  /* background: #ED2; */
+/* } */
+
+/* cell number */
+/* .carousel-cell:before {
+  display: block;
+  text-align: center;
+  /* content: counter(carousel-cell); */
+  /* line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */ 
+
+  /* .img {
+    width: 51%;
+    /* margin: 0 auto; */
+    /* margin-top: 9%;
+    padding: 0px !important;
+  } */ 
+  
+  @mixin white-gradient {
+    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  }
+  
+  $animationSpeed: 40s;
+  
+  // Animation
+  
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7))}
+  }
+  
+  
+  // Styling
+  .slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 150px;
+    margin: auto;
+    overflow:hidden;
+    position: relative;
+    width: 100%;
+    
+    &::before,
+    &::after {
+      @include white-gradient;
+      content: "";
+      height: 150px;
+      position: absolute;
+      width: 200px;
+      z-index: 2;
+    }
+    
+    &::after {
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg);
+    }
+  
+    &::before {
+      left: 0;
+      top: 0;
+    }
+    
+    .slide-track {
+      animation: scroll $animationSpeed linear infinite;
+      display: flex;
+      width: calc(250px * 14);
+    }
+    
+    .slide {
+      height: 250px;
+      width: 250px;
+    }
+  }

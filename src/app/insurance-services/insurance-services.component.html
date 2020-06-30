@@ -1,0 +1,17 @@
+<header class="header">
+        <!-- <app-navbar></app-navbar>
+        <app-welcome></app-welcome> -->
+        <app-nav-links></app-nav-links>
+</header>
+<div class="inssurance">
+
+
+
+    <div class="container">
+        <app-services *ngIf="type === 'individual'"></app-services>
+        <app-service-group *ngIf="type === 'group'"></app-service-group>
+    </div>
+</div>
+
+<app-contactus></app-contactus>
+<app-footer></app-footer>

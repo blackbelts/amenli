@@ -1,0 +1,135 @@
+section.best-price {
+    margin: 38px auto;
+    width: 180px;
+}
+
+p-card h2,
+p-card h3,
+p-card h4,
+p-card h5,
+p-card h6 {
+    margin: 0px;
+    font-family: Circle-Light !important;
+}
+
+p-card h6,
+p-card h2,
+p-card h3 {
+    color: #f00 !important
+}
+
+
+/* .best-price button {
+    margin-top: 5px;
+    background-color: var(--nine-color);
+    color: #fff;
+    border: none;
+    width: 108px;
+    height: 27px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+} */
+
+.ui-button-success {
+    margin-top: 5px;
+    border: none;
+    background: var(--gradiant-four);
+    color: #fff;
+    width: 108px;
+    height: 27px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: Circle-Light;
+    transition: .5s;
+}
+
+.best-price .buy-now {
+    margin-top: 5px;
+    background: var(--nine-color) !important;
+    color: #fff !important;
+    border: none;
+    width: 108px;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Circle-Light;
+    cursor: pointer;
+}
+
+.best-price .buy-now:disabled {
+    background: #fff !important;
+    color: var(--nine-color) !important;
+}
+
+p-card h6 {
+    margin-bottom: 8px;
+}
+
+h2.price-num {
+    font-size: 40px !important;
+    margin-bottom: -8px !important;
+}
+
+.currency {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.best-price .or {
+    margin: 9px auto 0px auto;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+.compare-btn {
+    margin-top: 5px;
+    color: #fff;
+    border: none;
+    height: 27px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    background: var(--gradiant-one) !important;
+    width: 130px !important;
+    margin-bottom: 2px;
+    font-family: Circle-Light;
+    transition: .5s;
+    line-height: 27px !important;
+}
+
+.compare-btn:disabled {
+    background: #fff !important;
+    color: var(--second-color) !important;
+}
+
+.compare-btn:not([disabled]):hover {
+    background: #fff !important;
+    color: var(--second-color) !important;
+}
+
+.other-compare {
+    font-size: 12px;
+    width: 188px;
+}
+
+.image-brand img {
+    width: 200px
+}
+
+@media screen and (max-width: 700px) {
+    .best-price {
+        width: 100% !important;
+        margin: 5px 0px 0px 0 !important;
+    }
+    p.other-compare {
+        margin: 0 auto !important;
+    }
+}

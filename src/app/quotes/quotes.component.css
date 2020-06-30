@@ -1,0 +1,99 @@
+.main-content {
+    text-align: center;
+}
+
+.main-content h1,
+.title-custom {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Circle-Light;
+}
+
+.main-content h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: Circle-Light;
+}
+
+.label-text {
+    font-size: 23px;
+    line-height: 85px;
+}
+
+.main-content h5 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: Circle-Light;
+}
+
+.ui-tabview-title {
+    color: red;
+}
+
+ul.ui-tabview-nav li:first-child span {
+    color: red;
+}
+
+.ui-tabview .ui-tabview-nav li {
+    width: 33% !important;
+    height: 75px !important;
+    line-height: 57px !important;
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+    border-radius: 20px 20px 0 0 !important;
+}
+
+.icon-tabs {
+    display: none;
+}
+
+.dvider-sp {
+    width: 60%;
+    display: block;
+    border-bottom: 2px solid var(--light-gray-color);
+    margin: 0 auto;
+    padding-top: 20px;
+}
+a#ui-tabpanel-1-label,
+a#ui-tabpanel-2-label,
+a#ui-tabpanel-0-label {
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .res-mobile {
+        width: 100% !important;
+    }
+    .form-group {
+        margin: 0px !important;
+    }
+    .main-content h1 {
+        font-size: 23px;
+    }
+    .main-content h2 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .main-content h5 {
+        margin-top: 3px;
+        font-size: 16px;
+        font-family: Circle-Light;
+    }
+    .main-content .title-custom {
+        font-size: 23px;
+        font-family: FuturaBoldBT;
+    }
+    span.ng-star-inserted {
+        visibility: visible;
+        font-size: 9px;
+    }
+    .icon-tabs {
+        display: block;
+        font-size: 25px;
+        margin-top: 9px;
+        text-align: center;
+        color: white;
+        margin-left: -4px !important;
+    }
+}

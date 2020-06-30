@@ -1,0 +1,16 @@
+<form class="form-group" [formGroup]="form">
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.brand' | translate }}</label>
+        <p-dropdown [options]="brands" [filter]="true" class="input-field" name="brands" formControlName="brand" (onChange)="submitFormAuto($event.value, 'brand')"></p-dropdown>
+    </div>
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.price' | translate }}</label>
+        <input type="text" [(ngModel)]="price" step="10000" id="price" pInputText class="input-field" name="price" formControlName="price" (blur)="formatNum($event.target.value)" (input)="submitFormAuto($event.target.value, 'price')">
+    </div>
+    <p-message severity="error" text="يجب ادخال ارقام فقط" *ngIf="Price.errors?.pattern"></p-message>
+
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.year' | translate }}</label>
+        <p-dropdown [options]="years" class="input-field" id="inputVal" name="year" #dd formControlName="year" (onChange)="submitFormAuto($event.value, 'year')"></p-dropdown>
+    </div>
+</form>

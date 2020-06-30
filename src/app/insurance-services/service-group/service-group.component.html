@@ -1,0 +1,158 @@
+<!-- <header class="header"> -->
+        <!-- <app-navbar></app-navbar>
+        <app-welcome></app-welcome> -->
+        <!-- <app-nav-links></app-nav-links> -->
+<!-- </header> -->
+<div class="services">
+    <!-- <h2 style="margin-bottom: 0px;">{{ 'services.title' | translate }}</h2>
+    <h4 style="margin-top: 0px;">{{ 'services.title2' | translate }}</h4> -->
+
+
+    <div class="p-grid p-justify-center	">
+        <div class="p-col service" (click)="showDialog(0)">
+
+            <div class="serv serv-mob">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-fire"></i>
+            </div>
+            <h5>{{ 'group.serv6' | translate }}</h5>
+        </div>
+
+        <div class="p-col service" (click)="showDialog(1)">
+
+            <div class="serv serv-mob">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-hard-hat"></i>
+            </div>
+            <h5>{{ 'group.serv3' | translate }}</h5>
+        </div>
+
+        <div class="p-col service" (click)="showDialog(2)">
+
+            <div class="serv serv-mob">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-ship"></i>
+            </div>
+            <h5>{{ 'group.serv4' | translate }}</h5>
+        </div>
+
+        <div class="p-col service" (click)="showDialog(3)">
+
+            <div class="serv serv-mob">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-running"></i>
+            </div>
+            <h5>{{ 'group.serv5' | translate }}</h5>
+        </div>
+
+        <div class="p-col service" (click)="showDialog(4)">
+
+            <div class="serv serv-mob">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-thermometer-empty"></i>
+            </div>
+            <h5>{{ 'group.serv10' | translate }}</h5>
+        </div>
+
+        <div class="p-col service" (click)="showDialog(5)">
+
+                <div class="serv serv-mob">
+                    <div class="overlay">
+                        <i class="far fa-comment-dots"></i>
+                    </div>
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h5>{{ 'group.serv8' | translate }}</h5>
+        </div>
+
+        <!-- <div class="p-col  service">
+
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-cogs"></i>
+            </div>
+            <h5>{{ 'group.serv1' | translate }}</h5>
+        </div>
+
+
+        <div class="p-col service">
+
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-tools"></i>
+            </div>
+            <h5>{{ 'group.serv2' | translate }}</h5>
+        </div> -->
+
+        <!-- <div class="p-col service">
+
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-hotel"></i>
+            </div>
+            <h5>{{ 'group.serv7' | translate }}</h5>
+        </div>
+ -->
+
+        <!-- <div class="p-col service">
+
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <h5>{{ 'group.serv9' | translate }}</h5>
+        </div> -->
+
+        <!-- <div class="p-col service">
+
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <i class="fas fa-thermometer-empty"></i>
+            </div>
+            <h5>{{ 'group.serv10' | translate }}</h5>
+        </div> -->
+
+
+    </div>
+    <p-fieldset *ngIf="display == true" >
+            <p-header>
+                <button type="button" class="ui-button-secondary btn" (click)="closeDialog()"> {{title}}  <i class="fas fa-times"></i></button>
+            </p-header>
+            <form [formGroup]="form">
+                    <div class="">
+                        <input type="text" name="name" id="name" formControlName="name" pInputText class="field-input" placeholder="الاسم" required/>
+                    </div>
+                    <div class="">
+                        <input type="text" formControlName="phone" placeholder="رقم التليفون"  name="phone" id="phone" pInputText class="field-input" required />
+                    </div>
+                    <div class="">
+                            <input type="text" name="companyName" id="companyName" formControlName="companyName" pInputText class="field-input" placeholder="اسم الشركة" required/>
+                    </div>
+                    
+    
+                    <button (click)="onSubmit(form.value)" type="submit" label="Submit" class="btn-contactus">{{ 'contactus.send' | translate }}</button>
+                    <!-- <p-progressSpinner *ngIf="load  == true"></p-progressSpinner> -->
+                    <p-message *ngIf="submitted  == true" severity="success" text="شكرا لاختيارك أمنلي.كوم قسم المبيعات سوف يتواصل معك خلال 24 ساعة لتقديم أفضل سعر مناسب"></p-message>
+            </form>
+    </p-fieldset>
+</div>

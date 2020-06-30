@@ -1,0 +1,35 @@
+<button pButton type="button" class="compare-btn" (click)="showDialog()" label="Buy Now">Go Compare</button>
+<p-dialog [(visible)]="display" [modal]="true" [style]="{width: '97vw'}" [blockScroll]="true">
+
+    <app-stepper></app-stepper>
+    <section class="plans-section">
+        <span class="pi pi-times close-modal" (click)="showMsg()"></span>
+        <p-card *ngFor="let item of items">
+            <div class="p-grid p-align-center">
+                <div class="p-col p-sm-12  img-brand res-mobile">
+                    <img [src]="item.imageUrl" alt="brand car" class="image-brand">
+                </div>
+          
+                <div class="p-col p-sm-12 res-mobile">
+                    <p class="showAlertLowestPrice">
+                        <span >Lowest Price Guaranteed</span>
+                    </p>
+                </div>
+                <div class="p-col p-sm-12 res-mobile">
+                    <div class="price-total">
+                        <span class="price-num">{{item.price}}</span>
+                        <span class="currency">{{item.currency}}</span>
+                    </div>
+                </div>
+                <div class="p-col p-sm-12 res-mobile">
+                    <div class="btn-action">
+                        <button (click)="goNavigate()" pButton type="button" class="btn-view-deal">View Deal</button>
+                    </div>
+                </div>
+            </div>
+
+        </p-card>
+
+        <p class="sm-link"><a class="other-comparies" href="#">view 10+ more insurance companies</a></p>
+    </section>
+</p-dialog>

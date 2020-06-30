@@ -1,0 +1,1402 @@
+[
+    {
+        "Mark": "Alfa RomioJullita",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Alfa RomioMeto",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "AudiA1",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "AudiA3",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "AudiA4",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "AudiA4HL",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "AudiA5",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "AudiA6",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "AudiA7",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "AudiQ3",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "AudiQ5",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "AudiQ7",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW116",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "BMW118",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "BMW118i",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "BMW120I",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "BMW218",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW218I",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW316",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW316I",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW318",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW320",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW320i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW325",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "BMW328",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW330",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW330i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW335",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW335 I",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW340i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW350",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "BMW418",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW418i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW520",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW520i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW523i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW525i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW528",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW530",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "BMW535",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW740",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW750IL",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW760IL",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMWB.M.W 318 i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMWB.M.W 520",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMWX1",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMWX1 I",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMWX3",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMWX4",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMWX5",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMWX6",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BMW640i",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "BrillianceCross",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "BrillianceFRV",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "BrillianceFSV",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "BrillianceGalena",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "BrillianceSplendor",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "BrillianceV5",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "BYDF3",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "BYDF3GI",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "ChevroletAveo",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ChevroletCaptiva",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "ChevroletCruze",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ChevroletLanos",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ChevroletOptra",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ChevroletSpark",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ChryslerC300",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "ChryslerM300",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "ChryslerTown&Country",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "CitroenC3",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "CitroenC4",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "CitroenC5",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "CitroenC-Elysee",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "CitroenDS3",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "CitroenDS4",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "CitroenDS5",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "CitroenGrandPicassoC4",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "CitroenpicassoC4",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "DaewooLanos",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "DaewooLeganza",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "DaewooNubira",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "DaihatsuCharade",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "DaihatsuGrandTerios",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "DaihatsuSirion",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "DaihatsuTerrios",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "DodgeDart",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "DodgeDurango",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "DodgeRAM",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Fiat500X",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "FiatBrava",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "FiatPunto",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "FiatSiena",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "FiatTempra",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "FordFiesta",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "FordFocus",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "FordFocusTrend",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Fordfusion",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "FordKuga",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "FordMonduo",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HondaCity",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HondaCivic",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HondaCRV",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "HyundaiAccent",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiAccentRB",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiAtos",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiCRETA",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "HyundaiElantra",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "HyundaiELANTRAHD",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "HyundaiGetz",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiGrandI10",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiI10",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiI20",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiI30",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "HyundaiIX20",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiIX35",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "HyundaiMatrix",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiNewAccent",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiNewMatrix",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiSantaFe",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "HyundaiSolaris",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiSonata",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "HyundaiTucson",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "HyundaiVerna",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiVernaViva",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Hyundai\u0647\u064a\u0648\u0646\u062f\u0627\u0649\u0641\u064a\u0644\u0648\u0633\u062a\u0627\u0631",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "HyundaiTrcan",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JaguarF. Type",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JaguarRange",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JaguarXE",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JaguarXF",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JaguarXJ",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JeepCherokee",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JeepCherokeeLimited",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JeepGrandCherokee",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Jeeplaredo",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JeepRangler",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "JeepRenegade",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "CadilakCadillac",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "CadilakSRX4",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "KiaCarinz",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "KiaCarnaval",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "KiaCerato",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "KiaMohave",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "KiaPicanto",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "KiaPrideSaipa132",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "KiaRio",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Kiaseed",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "KiaSorento",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "KiaSoul",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "KiaSportage",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "KomodoVLX",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "LadaGranta",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Land roverDiscovery",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Land roverLand rover",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Land roverRangrover",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Land roverEvoque",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "LexusRX350",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MahindraScorpio",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "MaseratiMazarati",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Mazda2",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Mazda3",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MazdaCore",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MazdaFamilyHaima",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "MercedesA200",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesB150",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "MercedesB160",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "MercedesB180",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesB2 150",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesB200",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesC180",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesC200",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesC200K",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesC240",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesC250",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesC280",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesC300",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesC350",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesCLA180",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesCLA200",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesCLAEX",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesE180",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesE200",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesE230",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesE240",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MercedesE250",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesE280",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesE300",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesE320",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesE350",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesGL500",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesGLA200",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesGLK 300",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesGLK350",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesmercedesGLK250",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesS320",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesS350L",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesS400",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesS500",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesS500L",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MercedesCLC160",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Mini cooperMini Cooper",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Mini cooperCountry Man",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "Mini cooperCountry Man",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MitsubishiAttrage",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "MitsubishiLancer",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "MitsubishiLancerSport",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "MitsubishiOutlander",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "MitsubishiPajero",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "NissanArmada",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "NissanCivilian",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "NissanInfinity",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "NissanJuke",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "NissanLivina",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "NissanPathfinder",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "NissanPatrol",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "NissanQashqai",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "NissanSentra",
+        "Rates": 0.0375
+    },
+    {
+        "Mark": "NissanSilvy",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "NissanSunny",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "NissanTida",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "NissanXterra",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "NissanX-Trail",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "OpelAstra",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Opel\u0650AstraCosmo",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "OpelCascada",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "OpelCorsa",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "OpelElegance",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "OpelInsignia",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "OpelMeriva",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "OpelMokka",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "OpelVectra",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "peroduaKelisa",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "Peugeot2008",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Peugeot207",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot208",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot3008",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Peugeot301",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot307",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot308",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Peugeot405",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot406",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot407",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot408",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot5008",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Peugeot505",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Peugeot508",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Peugeot508H/L",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "PeugeotRCZ",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "PorscheCarrera",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "PorscheCayan",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "PorscheMacan",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "ProtonGen2",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ProtonPersona",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ProtonSaga",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "RenaultCapture",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "RenaultClio",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "RenaultDuster",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "RenaultFluence",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Renaultkadjar",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "RenaultLodgy",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "RenaultLogan",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "RenaultMegan",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "RenaultSandero",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "RenaultSanic",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "RenaultSymbol",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "RenaultSanderoStepWay",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "Sang yongTivoli",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SeatAltea",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SeatCordoba",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SeatIbiza",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SeatLeon",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SeatToledo",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SeatAteca",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "SkodaA5",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SkodaA7HighLine",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SkodaFabia",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SkodaFabiaCombi",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SkodaFantazia",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SkodaOctavia",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SkodaOctaviaA4",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SkodaOctaviaA5Combi",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SkodaOctaviaA5Elegance",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SkodaOctaviaA7",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SkodaOctaviaCombi",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SkodaRapid",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SkodaSuperb",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SkodaYeti",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "CherryA113",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "CherryA213",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "CherryA516",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "CherryA620",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "CherryM11",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "CherryTiggo",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "CherryEnvy",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "SperanzaA113",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "SperanzaA213",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "SperanzaA516",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "SperanzaA620",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "SperanzaM11",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "SperanzaTiggo",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "SperanzaEnvy",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "SubaruForster",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SubaruImperza",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SubaruXV",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "SuzukiAlto",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiCelerio",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiCiaz",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiGemini",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiGrandVitara",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiMaruti",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiOrtega",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiSwift",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiSX4",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "SuzukiVitara",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ToyotaAuris",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "ToyotaAvanza",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "ToyotaAvensis",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "ToyotaCamry",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ToyotaCorolla",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "ToyotaEcho",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ToyotaFJCruiser",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "ToyotaFortuner",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "ToyotaLandCruiser",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "ToyotaPrado",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "ToyotaRav4",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "ToyotaYaris",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "VolkswagenCC",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "Volkswagengolf",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "VolkswagenJetta",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "VolkswagenParati",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "VolkswagenPassat",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "VolkswagenPointer",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "VolkswagenPolo",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "VolkswagenSuran",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "VolkswagenTiguan",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "VolkswagenTouareg",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "VolkswagenTouran",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "VolvoS60",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "VolvoS80",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "VolvoV40",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "VolvoV60",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "VolvoXC60",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "VolvoXC90",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "VolvoS90",
+        "Rates": 0.0275
+    },
+    {
+        "Mark": "GeelyPandino",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "GeelyGeely",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "GeelyM Grand 7",
+        "Rates": 0.07
+    },
+    {
+        "Mark": "FiatTipo",
+        "Rates": 0.0515
+    },
+    {
+        "Mark": "ToyotaC-HR",
+        "Rates": 0.0325
+    },
+    {
+        "Mark": "MG350",
+        "Rates": 0.07
+    }
+]

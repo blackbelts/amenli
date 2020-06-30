@@ -1,0 +1,160 @@
+section.order-summary {
+    background: #f1f1f1;
+    padding: 10px 40px
+}
+
+section.order-summary .title-summary {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #565656
+}
+
+.gold-tier h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gold-tier .package-offers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gold-tier .package-offers>li {
+    color: #888;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.package-price {
+    text-align: right;
+}
+
+.package-price h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.gold-tier .link-terms-conditions {
+    color: #888;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+span.price-num {
+    font-size: 25px;
+    color: #888;
+}
+
+span.currency {
+    color: #888;
+    margin-left: 5px
+}
+
+.gold-tier .link-terms-conditions {
+    text-decoration: none;
+    color: #888;
+    padding-top: 20px
+}
+
+.subtotal {
+    border-top: 1px solid #999;
+    margin-top: 40px
+}
+
+.subtotal h4 {
+    font-size: 22px;
+    margin-top: 17px;
+    padding: 0px;
+    font-weight: normal;
+    color: #888;
+}
+
+.total h4 {
+    font-size: 22px;
+    margin-top: 13px;
+    padding: 0px;
+    font-weight: normal;
+    color: #888;
+}
+
+.total .package-price-total {
+    text-align: right;
+}
+
+.total .package-price-total .price-num {
+    font-size: 30px;
+    color: #565656;
+    font-weight: 500
+}
+
+.request-policy {
+    border: none;
+    padding: 15px 44px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 29px;
+    background: #E42E5E;
+    width: 100%;
+    margin-top: 10px;
+    font-family: Circle-Light;
+    background: #eee !important;
+    color: #E42E5E;
+    height: 70px;
+}
+
+.request-policy:disabled {
+    background: #c6c4c4 !important;
+    color: #E42E5E;
+}
+
+.check-terms-conditions {
+    margin: 40px 0 40px 15px;
+}
+
+.check-terms-conditions span.title {
+    margin: 80px 30px 0px 41px;
+    padding-top: 20px;
+    color: #888
+}
+
+h4.title-termin-and-conditions {
+    margin: auto 0 5px 25px;
+    paddign: 0;
+    color: #565656;
+    font-size: 10px
+}
+
+ol.terms-conditions {
+    margin-top: 0px;
+    color: #888;
+    font-size: 12px
+}
+
+ol.terms-conditions>li {
+    margin-bottom: 5px
+}
+
+.title-termin-and-conditions {
+    color: (--black-color);
+}
+
+@media screen and (max-width: 700px) {
+    .check-terms-conditions {
+        margin: 40px 0 40px 1px;
+    }
+    .check-terms-conditions span.title {
+        font-size: 13px;
+        margin-left: 14px;
+        font-weight: 700;
+    }
+    ol.terms-conditions {
+        margin: 0;
+        padding: 0;
+        padding-left: 11px;
+    }
+    h4.title-termin-and-conditions {
+        margin: 0;
+    }
+}

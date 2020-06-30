@@ -1,0 +1,115 @@
+<div class="main-content container" id="quote">
+    <div id="menu-quotes" *ngIf="lang == 'en'">
+        <p-tabView dir="auto" (onChange)="handleChange($event)">
+            <p-tabPanel [selected]="true">
+                <ng-template pTemplate="header">
+                    <span>{{ 'quotes.car' | translate }}</span>
+                    <span class="break-text">{{ 'quotes.insurance' | translate }}</span>
+                    <i class="fas fa-car icon-tabs"></i>
+                </ng-template>
+                <div class="p-grid">
+                    <div class="p-md-8 p-sm-12  res-mobile">
+                        <app-car-insurance></app-car-insurance>
+                    </div>
+                    <div class="p-md-4  p-sm-12 res-mobile">
+                        <app-best-price *ngIf="enabled"></app-best-price>
+                    </div>
+                </div>
+
+
+            </p-tabPanel>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <span>{{ 'quotes.medical' | translate }}</span>
+                    <span class="break-text">{{ 'quotes.insurance' | translate }}</span>
+
+                    <i class="fas fa-stethoscope icon-tabs"></i>
+                </ng-template>
+                <div class="p-grid">
+                    <div class="p-md-8 p-sm-12  res-mobile">
+                        <app-medical-insurance></app-medical-insurance>
+                    </div>
+                    <div class="p-md-4  p-sm-12 res-mobile">
+                        <app-best-price *ngIf="enabled"></app-best-price>
+                    </div>
+                </div>
+            </p-tabPanel>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <span>{{ 'quotes.life' | translate }}</span>
+                    <span class="break-text">{{ 'quotes.insurance' | translate }}</span>
+                    <i class="fas fa-shield-alt icon-tabs"></i>
+                </ng-template>
+                <div class="p-grid">
+                    <div class="p-md-8 p-sm-12  res-mobile">
+                        <app-life-insurance></app-life-insurance>
+                    </div>
+                </div>
+                
+
+
+            </p-tabPanel>
+        </p-tabView>
+
+    </div>
+
+    <div id="menu-quotes" *ngIf="lang == 'ar'">
+        <p-tabView dir="auto" (onChange)="handleChange($event)">
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <i class="fas fa-shield-alt icon-tabs"></i>
+                    <span class="break-text label-text">{{ 'quotes.life' | translate }}</span>
+                    
+                </ng-template>
+                <div class="p-grid">
+                    <div class="p-md-12 p-sm-12  res-mobile">
+                        <h5 style="text-align:start; font-weight: 100 !important;">نساعدك علي وضع خطة مالية لتحقيق أهدافك من خلال اختيار ما يناسبك من برامج شركات التأمين المختلفة وشركات التأمين التكافلي</h5>
+                    </div>
+                    <div class="p-md-12 p-sm-12  res-mobile">
+                        <app-life-insurance></app-life-insurance>
+                    </div>
+                </div>
+            </p-tabPanel>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <i class="fas fa-stethoscope icon-tabs"></i>
+                    <span class="break-text label-text">{{ 'quotes.medical' | translate }}</span>
+
+                    
+                </ng-template>
+                <div class="p-grid">
+                    <div class="p-md-8 p-sm-12  res-mobile">
+                        <app-medical-insurance></app-medical-insurance>
+                    </div>
+                    <div class="p-md-4  p-sm-12 res-mobile">
+                        <app-best-price *ngIf="enabled"></app-best-price>
+                    </div>
+                </div>
+            </p-tabPanel>
+
+
+            <p-tabPanel [selected]="true">
+                <ng-template pTemplate="header">
+                    <i class="fas fa-car icon-tabs"></i>
+                    <span class="break-text label-text">{{ 'quotes.insurance' | translate }} {{ 'quotes.car' | translate }}</span>
+                    
+                </ng-template>
+                <div class="p-grid">
+                    <div class="p-md-8 p-sm-12  res-mobile">
+                        <app-car-insurance></app-car-insurance>
+                    </div>
+                    <div class="p-md-4  p-sm-12 res-mobile">
+                        <app-best-price *ngIf="enabled"></app-best-price>
+                    </div>
+                </div>
+
+
+            </p-tabPanel>
+        </p-tabView>
+
+    </div>
+
+    <span class="dvider-sp"></span>
+
+    <!-- <app-collbrations></app-collbrations> -->
+</div>

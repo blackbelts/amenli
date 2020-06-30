@@ -1,0 +1,252 @@
+/* Simple setup for this demo */
+
+.mdl-card {
+    width: 100%;
+    min-height: 0;
+    margin: 10px 0;
+}
+
+.mdl-card__supporting-text {
+    width: 43%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step {
+    width: 33.3%;
+    /* 100 / no_of_steps */
+}
+
+
+/* Begin actual mdl-stepper css styles */
+
+.mdl-stepper-horizontal-alternative {
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step {
+    display: table-cell;
+    position: relative;
+    padding: 24px;
+}
+
+
+/* .mdl-stepper-horizontal-alternative .mdl-stepper-step:hover,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
+    background-color: transparent;
+} */
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
+    border-radius: 15% / 75%;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:first-child:active {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:last-child:active {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+/* .mdl-stepper-horizontal-alternative .mdl-stepper-step:hover .mdl-stepper-circle {
+    background-color: #757575;
+} */
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:first-child .mdl-stepper-bar-left,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:last-child .mdl-stepper-bar-right {
+    display: none;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-circle {
+    width: 105px;
+    height: 105px;
+    margin: 0 auto;
+    background-color: var(--light-gray-color);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-circle {
+    background-color: var(--light-gray-color);
+    border: 15px solid rgb(33, 150, 243);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    color: var(--four-color) !important;
+    background-color: transparent;
+    border-top: 8px solid var(--four-color);
+    border-left: 8px solid var(--four-color);
+    border-right: 8px solid var(--four-color);
+    border-bottom: 8px solid var(--four-color);
+    transform: rotate(45deg);
+}
+
+span.num-counter.span-active {
+    color: white !important;
+}
+
+.active {
+    background-color: var(--five-color) !important;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.step-done .mdl-stepper-circle:before {
+    content: "\2714";
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.step-done .mdl-stepper-circle *,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.editable-step .mdl-stepper-circle * {
+    display: none;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.editable-step .mdl-stepper-circle {
+    -moz-transform: scaleX(-1);
+    /* Gecko */
+    -o-transform: scaleX(-1);
+    /* Opera */
+    -webkit-transform: scaleX(-1);
+    /* Webkit */
+    transform: scaleX(-1);
+    /* Standard */
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.editable-step .mdl-stepper-circle:before {
+    content: "\270E";
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-title {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Circle-Light;
+    text-transform: uppercase;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-title {
+    color: var(--black-color) !important
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-title {
+    text-align: center;
+    color: var(--black-color);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.active-step .mdl-stepper-title {
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.active-step.step-done .mdl-stepper-title,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.active-step.editable-step .mdl-stepper-title {
+    font-weight: 300;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.active-step .mdl-stepper-optional {
+    color: var(--black-color);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-bar-left,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-bar-right {
+    position: absolute;
+    top: 77px;
+    height: 1px;
+    border-top: 4px solid var(--light-gray-color);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-bar-right {
+    right: 0;
+    left: 50%;
+    margin-left: 20px;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-bar-left {
+    right: 69%;
+    margin-right: 18px;
+    left: -40px;
+}
+
+.icon-arrow-right {
+    position: absolute;
+    top: 28%;
+    right: -12px;
+    font-size: 44px !important;
+    color: var(--four-color);
+}
+
+.icon-arrow-left {
+    position: absolute;
+    top: 22%;
+    left: -12px;
+    font-size: 44px !important;
+    color: var(--four-color);
+}
+
+.num-counter {
+    position: absolute;
+    top: 23%;
+    left: 41%;
+    font-size: 40px;
+    z-index: 888;
+    color: var(--four-color) !important;
+    font-weight: bold;
+}
+
+.effect-on-num-counter {
+    line-height: 58px;
+    /* padding-left: 2px; */
+    font-family: Circle-Light;
+}
+
+@media screen and (max-width: 700px) {
+    .mdl-card__supporting-text {
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: left !important;
+    }
+    .mdl-card {
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 10px 14px !important;
+        text-align: left !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-circle {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .mdl-stepper-horizontal-alternative .mdl-stepper-step {
+        padding: 11px 36px 0 0 !important;
+    }
+    .num-counter {
+        font-size: 39px !important;
+    }
+    .effect-on-num-counter-mob {
+        top: 20px !important;
+        left: 24px !important;
+    }
+    .icon-arrow-right {
+        top: 26% !important;
+        right: 6px !important;
+        font-size: 34px !important;
+    }
+    .icon-arrow-left {
+        top: 26% !important;
+        left: 6px !important;
+        font-size: 34px !important;
+    }
+}

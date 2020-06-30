@@ -1,0 +1,17 @@
+<div class=" " (click)="changeStatus()">
+    <span class="pi pi-align-justify "></span>
+</div>
+<p-sidebar [(visible)]="display" position="right" (onHide)="sidenavClosed()">
+    <div class="links">
+        <div class=" nav-item " (click)="onClose()"><a [routerLink]="['/']" routerLinkActive="active-link">{{ 'nav_list.home' | translate }}</a></div>
+        <div class=" nav-item " (click)="onClose()"><a [routerLink]="['/','aboutus']" routerLinkActive="active-link">{{ 'nav_list.about_us' | translate }}</a></div>
+        <!-- <div class=" nav-item " (click)="onClose()">
+            <a [routerLink]="['/','insurance']" [queryParams]="{'type': 'individual'}" routerLinkActive="active-link" routerLinkActive=" active-link ">{{ 'nav_list.insurance_type' | translate }}</a></div> -->
+        <div class=" nav-item " (click)="onClose() "><a routerLink="/home/"  fragment="quotes">{{ 'nav_list.claims' | translate }}</a></div>
+        <div class="nav-item " (click)="onClose() "><a routerLink="/home/"  fragment="section1">{{ 'nav_list.contact_us' | translate }}</a></div>
+        <div class=" nav-item " (click)="onClose() "><a [routerLink]="['/','complaints']"  id="claims ">الشكاوى</a></div>
+        <!-- <div class=" nav-item " (click)="onClose() " *ngIf="lang=='en' "><a href="# ">عربى</a></div>
+        <div class=" nav-item " (click)="onClose() " *ngIf="lang=='ar' "><a href="# ">English</a></div> -->
+
+    </div>
+</p-sidebar>

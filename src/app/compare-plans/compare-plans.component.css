@@ -1,0 +1,18 @@
+.wrapping-title {
+    text-align: center;
+}
+
+.wrapping-title h2 {
+    font-size: 35px;
+    margin-bottom: 0px;
+    font-family: Circle-Light;
+}
+
+.wrapping-title h4 {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    font-family: Circle-Light;
+    color: black !important;
+}

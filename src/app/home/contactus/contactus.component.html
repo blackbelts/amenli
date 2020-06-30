@@ -1,0 +1,48 @@
+<div class="contactus">
+        
+
+    <div class="p-grid contactus-grid">
+
+        <div class="p-col-6 res-mobile">
+            <h1>{{ 'nav_list.contact_us' | translate }}</h1>
+            <h2>علي الإيميل info@amenli.com</h2>
+            <h2>أو</h2>
+            <h2 style="margin-top: -23px;">كلمنا علي <a href="https://api.whatsapp.com/send?phone=+201005206413" target="_blank" class="layout-config-button" id="layout-config-button" style="cursor: pointer;">
+                <i class="fab fa-whatsapp" style="font-size:24px; margin-top:15px;"></i>
+            </a></h2>
+            <ul class="social-links">
+                <li>
+                    <i class="fab fa-facebook-f"></i>
+                </li>
+                <li>
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li>
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li>
+                    <i class="fab fa-youtube"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="p-col-6  res-mobile">
+            <form>
+                <div class="">
+                    <input type="text" name="name" id="name" pInputText class="field-input" placeholder="الاسم"/>
+                </div>
+                <div class="">
+                    <input type="email" name="email" id="email" pInputText class="field-input" />
+                </div>
+                <div class="">
+                    <input type="text" placeholder="رقم التليفون" pattern="/^\d+$/" name="phone" id="phone" pInputText class="field-input" />
+                </div>
+                <div class="">
+                    <!-- <input type="text" name="message" id="message" pInputText class="field-input" /> -->
+                    <textarea type="text" name="message" id="message" class="field-input" [rows]="5" [cols]="30" pInputTextarea autoResize="autoResize"></textarea>
+                </div>
+
+                <button  class="btn-contactus">{{ 'contactus.send' | translate }}</button>
+            </form>
+        </div>
+    </div>
+</div>

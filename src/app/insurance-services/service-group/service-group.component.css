@@ -1,0 +1,97 @@
+.services {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.service {
+    position: relative;
+    cursor: pointer;
+}
+
+.service:hover .overlay {
+    visibility: visible;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 101%;
+    background: #41599D;
+    border-radius: 50%;
+    visibility: hidden;
+    z-index: 999;
+    text-align: center;
+    margin: auto 0;
+}
+
+.overlay i {
+    line-height: 100px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.serv i {
+    font-size: 35px;
+    color: #fff;
+}
+
+.serv {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: #D32863;
+    border-radius: 50%;
+    line-height: 121px;
+    text-align: center;
+    margin: 0 auto;
+}
+.btn {
+    background-color: #f4f4f4;
+    border: 1px solid gainsboro;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+.btn:hover{
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+}
+.field-input {
+    width: 50%;
+    margin: 5px 0;
+    background: transparent;
+    border-radius: 0;
+    border: 2px solid;
+    text-align: center;
+
+}
+.layout-config-button {
+   
+    color: black;
+}
+
+.field-input::placeholder {
+    font-size: 16px;
+    font-family: Circle-Light !important;
+}
+
+.btn-contactus {
+    margin: 13px 25%;
+    height: 35px;
+    width: 135px;
+    font-size: 16px;
+    font-family: Circle-Light !important;
+    background: var(--black-color);
+    border-color: var(--black-color);
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .contactus-grid {
+        margin-bottom: 40px;
+    }
+    .field-input {
+        width: 100%;
+    }
+}

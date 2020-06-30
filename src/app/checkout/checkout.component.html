@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="checkout">
+        <app-stepper></app-stepper>
+        <div class="p-grid">
+            <div class="p-col-6  res-mobile">
+                <app-payment-method></app-payment-method>
+            </div>
+            <div class="p-col-6  res-mobile">
+                <app-order-summary [plan]="plan_selected"></app-order-summary>
+            </div>
+        </div>
+    </div>
+</div>

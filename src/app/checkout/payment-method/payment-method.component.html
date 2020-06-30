@@ -1,0 +1,102 @@
+<section class="payment">
+    <h3 class="payment-title">{{ 'checkout.payment_method' | translate }}</h3>
+    <div class="methods">
+        <p-panel [collapsed]="!part1" [transitionOptions]="'100ms'">
+            <p-header>
+                <div class="p-grid" style="line-height: 35px;">
+                    <div class="p-col">
+                        <p-radioButton name="method-payment" [value]="part1" (onClick)="makeP1True()">{{ 'checkout.credit_card' | translate }}</p-radioButton>
+                        <span class="title-method" style="font-family: Circle-Light !important;">
+                            {{ 'checkout.credit_card' | translate }}
+                        </span>
+                    </div>
+                    <div class="p-col" style="line-height: 55px;">
+                        <ul class="icons-payment" [ngClass]="{'go-left': lang=='ar'}">
+                            <li class="icon-payment"><img src="assets/images/icons/visa.png" alt="visa"></li>
+                            <li class="icon-payment"><img src="assets/images/icons/master-card.jpg" alt="master-card"></li>
+                            <li class="icon-payment"><img src="assets/images/icons/mastero.jpg" alt="mastero"></li>
+                        </ul>
+                    </div>
+                </div>
+            </p-header>
+
+            <form action="" class="form-group-custom" [formGroup]="form">
+
+                <div class="p-grid">
+                    <div class="p-col-12">
+                        <input type="text" pInputText formControlName="cardNumber" placeholder="رقم البطاقة" id="card_number" class="form-field" />
+                    </div>
+
+                    <div class="p-col-12">
+                        <input type="text" pInputText formControlName="name" placeholder="الاسم الموجود على البطاقة" id="name_card" class="form-field" />
+                    </div>
+
+
+                    <div class="p-col-6  res-mobile">
+                        <input type="email" pInputText formControlName="email" placeholder="الايميل الالكترونى" id="email" class="form-field" />
+                    </div>
+                    <div class="p-col-6  res-mobile">
+                        <input type="tel" pInputText formControlName="phone_number" placeholder="رقم الهاتف" id="phone_number" class="form-field" />
+                    </div>
+                    <div class="p-col-6  res-mobile">
+                        <input type="text" pInputText formControlName="expDate" placeholder="تاريخ الانتهاء" id="exp" class="form-field" />
+                    </div>
+                    <div class="p-col-6  res-mobile">
+                        <input type="text" pInputText formControlName="securityCode" placeholder="رقم التامين" id="security_code" class="form-field" />
+                    </div>
+                    <div class="p-col-12">
+                        <input type="text" pInputText formControlName="re_address" placeholder="عنوان استلام الوثيقة" class="form-field" />
+                    </div>
+
+                </div>
+            </form>
+
+
+
+        </p-panel>
+        <p-panel [collapsed]="!part2" [transitionOptions]="'100ms'">
+            <p-header>
+                <div class="header-panel" style="
+                line-height: 36px;">
+
+                    <p-radioButton name="method-payment" [value]="part2" (onClick)="makeP2True()">{{ 'checkout.credit_card' | translate }}</p-radioButton>
+                    <span class="title-method" style="font-family: Circle-Light !important;">
+                                {{ 'checkout.cash' | translate }}
+                            </span>
+                </div>
+            </p-header>
+
+
+
+            <form action="" class="form-group-custom" [formGroup]="cashForm">
+
+                <div class="p-grid">
+
+
+                    <div class="p-col-12">
+                        <input type="text" pInputText formControlName="name" placeholder="الاسم الكامل" class="form-field" />
+                    </div>
+
+                    <div class="p-col-12">
+                        <input type="tel" pInputText formControlName="phone_number" placeholder="رقم الهاتف" class="form-field" />
+                    </div>
+                    <div class="p-col-12 ">
+                        <input type="email" pInputText formControlName="email" placeholder="الايميل الالكترونى" id="email" class="form-field" />
+                    </div>
+                    <div class="p-col-12">
+                        <input type="email" pInputText formControlName="address" placeholder="العنوان" class="form-field" />
+                    </div>
+
+                    <div class="p-col-12">
+                        <input type="text" pInputText formControlName="re_address" placeholder="عنوان استلام الوثيقة" class="form-field" />
+                    </div>
+
+                </div>
+            </form>
+
+
+
+        </p-panel>
+
+    </div>
+</section>

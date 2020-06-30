@@ -1,0 +1,163 @@
+<div class="container">
+    <app-stepper></app-stepper>
+
+</div>
+<div class="container">
+    <h2 class="big-title"> {{ 'compare.title1'| translate }}</h2>
+
+
+    <p class="normal-title">{{ 'compare.title2'| translate }}</p>
+</div>
+<div class="container-custm  choose">
+
+    <div class="p-grid">
+        <!-- <div class="p-md-3 left-section">
+            <div class="map" style="background: #eee;     height: 100px;
+            line-height: 100px; margin: 0 auto; text-align: center;">
+                map
+            </div>
+           
+
+            <div class="search-input">
+                <h3>Search By Property Name</h3>
+
+                <div class="f-group">
+                    <i class="fa fa-search"></i>
+                    <input type="text" pInputText placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'">
+                    <button pButton type="button" class="btn-go">Go</button>
+
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Filter Property By</h3>
+
+
+                <div class="filter">
+                    <h4>Plans</h4>
+                    <div class="filter-chk">
+                        <p-radioButton name="groupname" value="val1" label="All" ngModel="val1"></p-radioButton>
+                    </div>
+                    <div class="filter-chk">
+                        <p-radioButton name="groupname" value="val1" label="Gold"></p-radioButton>
+                    </div>
+                    <div class="filter-chk">
+                        <p-radioButton name="groupname" value="val1" label="Platinum"></p-radioButton>
+                    </div>
+                    <div class="filter-chk">
+                        <p-radioButton name="groupname" value="val1" label="Diamond"></p-radioButton>
+                    </div>
+                </div>
+                <div class="filter">
+                    <h4>Rating</h4>
+                    <div class="filter-chk">
+                        <p-checkbox name="groupname"></p-checkbox>
+                        <span *ngFor="let i of counter(5)" class="stars"><span class="pi pi-star star-icon"></span></span>
+
+                    </div>
+                    <div class="filter-chk">
+                        <p-checkbox name="groupname"></p-checkbox>
+                        <span *ngFor="let i of counter(4)" class="stars"><span class="pi pi-star star-icon"></span></span>
+
+                    </div>
+                    <div class="filter-chk">
+                        <p-checkbox name="groupname"></p-checkbox>
+                        <span *ngFor="let i of counter(3)" class="stars"><span class="pi pi-star star-icon"></span></span>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div> -->
+        <div class="p-md-10 middle-section res-mobile2 ">
+            <div class="top-head">
+                <ul class="nav-list">
+                    <li class="nav-item">{{ 'compare.sort'| translate }}</li>
+
+                    <li class="nav-item">
+                        {{'quotes.price' | translate}}
+                        <i class="fas fa-sort"></i>
+                    </li>
+
+                    <li>
+                        <p-dropdown [options]="plans" [ngModel]="0" (onChange)="getByPlan($event.value)"></p-dropdown>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="show-plans">
+                <div *ngFor="let item of items; let j = index;">
+
+                    <div *ngFor="let plan of item.plan; let i=index" style="margin-top: 10px;">
+
+                        <p-card>
+                            <div class="p-grid" (window:resize)="onResize($event)">
+                                <div [ngClass]="[breakpoint]">
+                                    <!-- <div class="thumbnail-container" 
+                                  
+                                    [ngStyle]="{'background-image': getImage(convertObjectToValues(convertObjectToValues(items)[j])[1])}">
+                                  
+                                    </div> -->
+                                    <img style="width:70%;" [src]="item.image">
+                                </div>
+
+
+
+                                <div [ngClass]="[breakpoint, 'p-col-align-center' , 'custom-res-show']" style="display:none">
+                                    <p class="price-num-str">
+
+                                        <span class="price-num">
+                                            {{ plan['gold']["month_price"] | number:'1.0-0'}}</span>
+                                        <span class="type-month">{{ 'compare.currency_and_date'| translate }}</span>
+
+                                    </p>
+                                </div>
+
+                                <div [ngClass]="[breakpoint, 'p-col-align-center' , 'custom-res-hidden']" style="display:block">
+                                    <h3 class="title-plan"> GOLD <i class="fas fa-star" *ngIf="plan['gold']['icon'] == 'coins'"></i></h3>
+                                </div>
+
+                                <div [ngClass]="[breakpoint, 'p-col-align-center', 'heidden-section2']">
+
+                                    <p class="alert-yello" *ngIf="plan['gold']['icon']  == 'coins'">
+                                        <span>{{ 'compare.alert'| translate }}</span>
+                                    </p>
+                                </div>
+
+                                <div [ngClass]="[breakpoint, 'p-col-align-center' , 'custom-res-hidden']" style="display:block">
+                                    <p class="price-num-str">
+
+                                        <span class="price-num">  {{ plan['gold']["month_price"] | number:'1.0-0'}}</span>
+                                        <span class="type-month">{{ 'compare.currency_and_date'| translate }}</span>
+
+                                    </p>
+                                </div>
+                                <div [ngClass]="[breakpoint, 'p-col-align-center' , 'custom-res-show']" style="display: none;">
+                                    <h3 class="title-plan"> GOLD <i class="fas fa-star" *ngIf="plan['gold']['icon'] == 'coins'"></i></h3>
+                                </div>
+
+
+                                <div [ngClass]="[breakpoint, 'p-col-align-center']">
+                                    <div class="btn-actions ">
+                                        <button pButton type="button" *ngIf="medical === 'medical'" (click)="onClick(item.name, 'gold', brandId, price)"
+                                            class="btn_view">{{ 'compare.view_deal'| translate }}</button>
+                                        <button pButton type="button" *ngIf="medical !== 'medical'" (click)="onClick(item.name, 'gold', brandId, price)"
+                                            class="btn_view">{{ 'compare.view_deal'| translate }}</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </p-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-md-2 right-section heidden-section2">
+            <div class="ads">
+                <img src="assets/images/ads/imgad.gif" alt="ads" width="100%" height="600px">
+                <img src="assets/images/ads/imgad.gif" alt="ads" width="100%" height="600px">
+            </div>
+        </div>
+    </div>
+</div>

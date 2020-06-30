@@ -1,0 +1,17 @@
+.why {
+    margin: 40px auto;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+li>span {
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 400px) {
+    .why {
+        margin: 40px 5px !important;
+    }
+}

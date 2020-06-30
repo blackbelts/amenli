@@ -1,0 +1,352 @@
+.container-custm {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.big-title {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Circle-Light;
+    text-align: center;
+}
+
+.normal-title {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: Circle-Light;
+    text-align: center;
+    color: #858585;
+}
+
+.choose .f-group {
+    position: relative;
+}
+
+.choose .f-group input::placeholder {
+    /* padding-left: 30px; */
+}
+
+.choose .f-group input {
+    padding-left: 30px;
+}
+
+.choose .f-group input:focus i {
+    color: var(--nine-color);
+}
+
+.choose .f-group i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #c7c7c7;
+}
+
+.btn-go {
+    margin-left: 15px;
+    height: 34px;
+    width: 48px;
+    font-size: 19px;
+    background: var(--nine-color);
+    border-color: var(--nine-color);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-input h4 {
+    margin-bottom: 10px;
+}
+
+.filter-section {
+    margin-top: 40px
+}
+
+.filter-section .filter {
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.filter-section .filter:last-child {
+    border-bottom: none;
+}
+
+.filter-section .filter .filter-chk {
+    margin-bottom: 10px;
+}
+
+.filter-section .star-icon {
+    position: absolute;
+    padding-left: 5px;
+    color: gold;
+}
+
+.filter-section .stars {
+    margin-right: 16px;
+}
+
+.top-head {
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #eee;
+    border-radius: 3px;
+    height: 55px;
+}
+
+ul.nav-list {
+    background: #fff;
+    margin: 0;
+    /* line-height: 50px; */
+    height: 51px;
+    line-height: 51px;
+    padding-left: 0px;
+}
+
+ul.nav-list>li:first-child {
+    color: var(--black-color);
+}
+
+.showAlertLowestPrice>span {
+    background-color: yellow;
+    padding: 2px 3px;
+}
+
+ul.nav-list>li {
+    display: inline-block;
+    /*    margin-right: 50px; */
+    color: #E42E5E;
+    /*    background: red; */
+    height: 99%;
+    width: 92px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Circle-Light
+    /*    background: red; */
+}
+
+
+/* */
+
+ul.nav-list>li:not(:first-child):hover {
+    /*     color: red; */
+    background: #EDF7FF;
+    cursor: pointer;
+    /* border-top: 2px solid #eee*/
+}
+
+.choose h2 {
+    text-align: center;
+}
+
+
+/* start show plans */
+
+.show-plans {
+    margin-top: 20px;
+}
+
+.show-plans .p-col {
+    padding: 0;
+}
+
+.title-plan {
+    color: var(--black-color) !important;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-family: Circle-Light;
+}
+
+.title-plan .fa-star {
+    display: none;
+    color: #FFF100;
+}
+
+.icon-content {
+    font-size: 32px;
+    position: absolute;
+    padding-left: 20px;
+}
+
+.thumbnail-container {
+    /* background: red; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.title-card {
+    color: #E42E5E !important;
+    font-size: 20px;
+    margin: 5px 0 18px 0;
+    position: relative;
+}
+
+.title-card a {
+    color: #E42E5E !important;
+}
+
+.title-card a:hover {
+    border-bottom: 3px solid #E42E5E;
+}
+
+.show-plans .star-icon {
+    position: absolute;
+    padding-left: 5px;
+    color: gold;
+}
+
+.show-plans .stars {
+    margin-right: 18px;
+}
+
+span.title-badge {
+    margin-bottom: 5px
+}
+
+.badge-types.ng-star-inserted {
+    margin-bottom: 5px;
+    font-size: 14px;
+    position: relative;
+    color: #2f7000;
+}
+
+.badge-types .feature-icon {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    /* margin-right: 10px; */
+    /* padding-right: 71px; */
+}
+
+.badge-types .title-badge {
+    padding-left: 24px;
+}
+
+
+/* end show plans */
+
+
+/* start section price */
+
+.price-section {
+    text-align: right;
+}
+
+.rating-reviews h3 {
+    margin: 13px 0 5px 0;
+}
+
+.rating-string {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.price-num-str {
+    text-align: center !important;
+    font-size: 2.5rem;
+    margin: 11px auto;
+    font-family: Circle-Light;
+    font-weight: bolder;
+
+}
+
+.price-num-str a {
+    color: var(--black-color) !important;
+}
+
+.price-num-str a:hover {
+    border-bottom: 3px solid var(--black-color);
+}
+
+.times {
+    color: red !important
+}
+
+.btn-actions {
+    text-align: right;
+}
+
+.type-month {
+    font-size: 14px;
+    font-family: Circle-Light;
+    margin: auto 5px;
+}
+
+.btn_view {
+    margin-top: 5px;
+    border: none;
+    background: var(--gradiant-four);
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+    font-family: Circle-Light;
+}
+
+.alert-yello {
+    text-align: center;
+    width: 70%;
+    height: 25px;
+    background: #FFF100;
+    margin: auto 50px;
+}
+
+.alert-yello span {
+    text-align: center;
+    font-family: Circle-Light;
+    color: #606060;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* end section price */
+
+@media screen and (max-width: 700px) {
+    .container-custm {
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .title-plan .fa-star {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .custom-res-hidden {
+        display: none !important;
+    }
+    .custom-res-show {
+        display: block !important;
+    }
+    .thumbnail-container {
+        height: 131% !important;
+        width: 111px !important;
+    }
+    .price-num-str {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .big-title {
+        font-size: 23px !important;
+    }
+    .normal-title {
+        font-size: 18px;
+    }
+}

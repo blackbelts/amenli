@@ -1,0 +1,68 @@
+.form-control:last-child {
+    margin-top: 45px;
+    margin-bottom: -31px!important;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.radio-suffer label {
+    margin-right: 44px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p-radiobutton {
+    margin-right: 7px;
+}
+
+radio-suffer p-grid {   
+    margin-right: 7px;
+}
+.btn {
+    margin-top: 5px;
+    color: #fff;
+    border: none;
+    height: 40px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    background: var(--gradiant-one) !important;
+    width: 50% !important;
+    margin-bottom: 2px;
+    font-family: Circle-Light;
+    transition: .5s;
+    line-height: 27px !important;
+}
+/* .after{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 13px;
+    display: inline-table;
+} */
+.after {
+    animation:  glow 3s infinite;
+    font-weight: bolder;
+
+
+    
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow:  0 0 10px white;
+    }
+    
+    15% {
+      text-shadow: 2px 2px 10px rgba(255, 255, 255, 1),
+                   -2px -2px 10px rgba(255, 255, 255, 1);
+    }
+    30% {
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, .7),
+                   -2px -2px 4px rgba(255, 255, 255, .7);
+    }
+    50% {
+      text-shadow: 20px 20px 50px rgba(255, 255, 255, .5),
+                   -20px -20px 50px rgba(255, 255, 255, .5);
+    }
+  }

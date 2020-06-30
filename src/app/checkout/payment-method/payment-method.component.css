@@ -1,0 +1,109 @@
+.payment .title-method {
+    margin: auto 35px;
+}
+
+.payment .payment-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Circle-Light;
+}
+
+ul.icons-payment>li {
+    display: inline-block;
+    margin-right: 5px
+}
+
+ul.icons-payment {
+    list-style: none;
+    margin: 0;
+}
+
+ul.icons-payment>li>img {
+    width: 40px;
+    height: 20px;
+}
+
+.payment .methods .p-col:last-child {
+    text-align: right;
+    padding: 0;
+}
+
+.foorer-cash {
+    position: relative;
+}
+
+.foorer-cash .dvider {
+    position: absolute;
+    height: 1.3px;
+    width: 105%;
+    background: #eee;
+    top: -14px;
+    left: -13px;
+}
+
+.methods .body-content {
+    margin-bottom: 20px;
+}
+
+.methods {
+    position: relative;
+}
+
+.go-left {
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    margin-left: 13px;
+    width: 100%;
+    padding-top: 12px;
+    bottom: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    left: -13px;
+    background: #fff;
+    height: 68px;
+    line-height: 45px;
+    padding-left: 13px;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid var(--light-gray-color);
+}
+
+.push {
+    height: 42px;
+}
+
+
+/* FORM */
+
+.form-field {
+    width: 100%;
+    height: 45px;
+}
+
+input.form-field::placeholder {
+    padding-left: 30px;
+    font-family: Circle-Light;
+}
+
+.form-group-custom {
+    margin: 40px auto 40px 40px;
+}
+
+.span.title-method {
+    color: var(--black-color) !important;
+    font-family: Circle-Light;
+}
+
+@media screen and (max-width: 700px) {
+    ul.icons-payment>li>img {
+        width: 41px;
+        height: 35px;
+    }
+    ul.icons-payment {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: left !important;
+    }
+}

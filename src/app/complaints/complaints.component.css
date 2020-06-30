@@ -1,0 +1,9 @@
+.content {
+    margin: 60px auto 0 0;
+}
+
+.content a {
+    color: #007ad9;
+    text-decoration: underline !important;
+    cursor: pointer !important;
+}

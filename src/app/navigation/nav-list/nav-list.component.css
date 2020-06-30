@@ -1,0 +1,20 @@
+span {
+    margin: 11px 12px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-item>a {
+    color: var(--black-color);
+    font-family: Circle-Light;
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    background-color: var(--six-color);
+    color: #fff;
+}
+
+.links {
+    margin-top: 28px
+}

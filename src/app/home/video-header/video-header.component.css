@@ -1,0 +1,29 @@
+#video-container {
+    position: relative;
+}
+
+video {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.title-container {
+    position: absolute;
+    z-index: 10;
+    top: 60px;
+    right: 33px;
+}
+
+.btn-more {
+    background: #D95F1E;
+    border: none;
+    width: 140px;
+    height: 36px;
+    font-size: 18px;
+    color: #252525;
+    border-radius: 20px;
+    height: 100%;
+    font-family: Circle-Light !important;
+}

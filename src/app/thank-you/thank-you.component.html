@@ -1,0 +1,47 @@
+<div class="container" style="padding-top:50px!important;">
+    <div class="thanks">
+        <p-card [style]="{'width': '80%','margin': '0 auto','text-align': 'center','margin-bottom':'50px'}" styleClass="card" class="card">
+            <p-header>
+                <div class="p-grid">
+                    <div class="p-col-6" >
+                            <img class="marg-img" src="assets/images/logo-amenli.png"/>
+                    </div>
+                    <div class="p-col-6">
+                            <img class="img" src="assets/images/delivey.png"/>
+                    </div>
+                </div>    
+            </p-header>
+            <div style="margin-top: -35px;">
+                <h4>اهلا {{name}}</h4>
+                <p>تم تنفيذ الطلب الخاص بكم وسوف يتم الاتصال بك خلال 24 ساعه لتحديد ميعاد المعاينة  واصدار الوثيقة
+                </p>
+            </div>
+            <div style="margin-top: 30px;">
+                <p-progressBar [value]="value"></p-progressBar>
+            </div>
+            <p-footer>
+                <div class="p-grid">
+                    <div class="p-col-6">
+                        <p-card [style]="{'background-color':'#f4f4f4','text-align':'start','height':'158px'}">
+                            <h4>ملخص الطلب</h4>
+                            
+                        <p style="font-weight:bolder;">الفئة : {{planeSelected}}</p>
+                        <p style="font-weight:bolder;">السعر : {{price | number:'1.0-0'}}</p>
+                            
+
+
+                        </p-card>
+                    </div>
+                    <div class="p-col-6">
+                        <p-card [style]="{'background-color':'#f4f4f4','text-align':'start','height':'158px'}">
+                            <h4>عنوان توصيل الطلب</h4>
+                            <p style="font-weight:bolder;">{{name}}</p>
+                            <p style="font-weight:bolder;">{{address}}</p>
+                        </p-card>
+                    </div>
+                </div>
+            </p-footer>
+        </p-card> 
+    </div>
+</div>
+

@@ -1,0 +1,28 @@
+<form class="form-group"  [formGroup]="form">
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.plan' | translate }}</label>
+        <p-dropdown [options]="plans" class="input-field" name="plans" formControlName="plan"></p-dropdown>
+    </div>
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.name' | translate }}</label>
+        <input type="text" id="name" pInputText class="input-field" name="name" formControlName="name" class="input-field" name="name" placeholder="الاسم">
+    </div>
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.age' | translate }}</label>
+        <p-dropdown [options]="ages"  class="input-field" id="inputVal" name="age" #dd formControlName="age"></p-dropdown>
+    </div>
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.phone' | translate }}</label>
+        <input type="text" id="phone" pInputText class="input-field" name="phone" formControlName="phone" class="input-field" name="phone" placeholder="ادخل رقم الموبايل">
+        <p-message severity="error" text="يجب ادخال ارقام فقط" *ngIf="Phone.errors?.pattern"></p-message>
+    </div>
+    <!-- <div class="form-control">
+        <label class="label-input">{{ 'quotes.phone' | translate }}</label>
+        <p-inputMask [style]="{'direction': 'ltr','background':'#eee','border-radius':'12px','height':'53px','border':'none','font-size':'20px','text-align':'center'}" formControlName="phone" class="input-field" placeholder="(9999) 999-9999" name="phone" mask="(9999) 999-9999"></p-inputMask>
+    </div> -->
+    <button *ngIf="load  != true"  class="btn" type="button" (click)="createTicket(form)">إطلب</button>
+    <p-progressSpinner *ngIf="load  == true"></p-progressSpinner>
+    <p-message severity="success" text="شكرا لاختيارك أمنلي.كوم قسم المبيعات سوف يتواصل معك خلال 24 ساعة لتقديم أفضل سعر مناسب" *ngIf="this.done == true"></p-message>
+    <p-message severity="error" text="يجب ملء كامل البيانات" *ngIf="this.notDone == true"></p-message>
+
+</form>

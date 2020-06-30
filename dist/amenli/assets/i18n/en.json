@@ -1,0 +1,127 @@
+{
+    "quotes": {
+        "lowest_price": "Lowest Price Guaranteed.",
+        "get_insurced": "Get Insured in less than",
+        "2mins": "2 minutes",
+        "compare_title": "Compare quotes instanlty",
+        "insurance": "Insurance",
+        "car": "Car",
+        "medical": "Medical",
+        "life": "Life",
+        "age": "Age",
+        "gender": "Gender",
+        "type_work": "Type Of Work",
+        "qts": "Do You Suffer From Any Chronic Illnesses?",
+        "yes": "Yes",
+        "no": "No",
+        "brand": "Brand",
+        "price": "Price",
+        "year": "Year",
+        "car_placeholder": "Enter Your Price Car",
+        "title": "in collaboration with",
+        "labelTitle": "Choose Vehicle Type"
+    },
+    "compare": {
+        "title1": "You're Almost There!",
+        "title2": "Tow More Clicks To Checkout",
+        "sort": "Sort By:",
+        "currency_and_date": "EGY/month",
+        "alert": "Lowest Price Guaranteed",
+        "view_deal": "View Deal",
+        "first_title": "Choose The Plan That's Work For You!",
+        "second_title": "We've found the lowest price for you!",
+        "egp": "EGP",
+        "month": "month",
+        "year": "year",
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+
+
+    },
+    "card_price": {
+        "title": "Skip the comparison",
+        "title1": "Choose The Best Price",
+        "title2": "Lowest price From",
+        "buy_now": " Buy Now",
+        "go_compare": "Go Compare",
+        "other": "Other In Insurance Companies",
+        "or": "OR",
+        "": "",
+        "": "",
+        "": ""
+    },
+    "nav_list": {
+        "about_us": "ABOUT US",
+        "insurance_type": "INSURANCE",
+        "claims": "CLAIMS",
+        "blog": "BLOG",
+        "contact_us": "CONTACT US",
+        "search": "SEARCH",
+        "home": "HOME",
+        "complaints": "Complaints",
+        "": ""
+    },
+    "checkout": {
+        "order_summary": "Order Summary",
+        "terms": "Terms & Conditions",
+        "total": "Total",
+        "policy": "Request Policy",
+        "confirm": "I have read and accept the Terms & Conditions",
+        "payment_method": "Payment Method",
+        "credit_card": "Credit Card",
+        "cash": "Cash",
+        "card_number": "Card Number",
+        "phone_number": "Phone Number",
+        "name_card": "Name On Card",
+        "email": "Email",
+        "number": "Number",
+        "exp": "Exp. Date",
+        "security_code": "Security Code",
+        "subtotal": "Subtotal",
+        "tier": "Tier"
+    },
+    "stepper": {
+        "plan": "Plan",
+        "choose": "Choose",
+        "checkout": "Checkout",
+        "": ""
+    },
+    "services": {
+        "title": "Book Your Insurance Now",
+        "title2": "All Your Family will be insured the blink of an eye !Book now."
+    },
+    "type": {
+        "title": "What type of insurance are you interested in?"
+
+    },
+    "why": {
+        "title": "Why Amenli?",
+        "reason1": "A transparent comparison of all insurance companies offers",
+        "reason2": "The first specialized internet marketing platform",
+        "reason3": "Follow all compensation procedures for our clients",
+        "reason4": "Review all insurance coverage for each document",
+        "reason5": "Find flexible payment solutions",
+        "reason6": "Insurance solutions for everything that matters to our customers"
+    },
+    "group": {
+        "serv1": "Machine breakdown insurance",
+        "serv2": "All installation hazards projects under construction",
+        "serv3": "Contractors notification insurance",
+        "serv4": "Insurance on the hulls of ships and aircraft",
+        "serv5": "Insurance against breach of trust and forced theft",
+        "serv6": "Insurance against fire, burglary and additional hazards",
+        "serv7": "Comprehensive insurance for hotels and tourist villages",
+        "serv8": "General civil liability insurance",
+        "serv9": "Insurance of the responsibility of business owners",
+        "serv10": "Insurance for the contents of cold stores and refrigerators"
+
+    },
+    "contactus": {
+        "name": "Name",
+        "email": "E-mail",
+        "address": "Address",
+        "message": "Message",
+        "send": "Send",
+        "all_right_saved": "All Rights Reserved"
+    }
+}

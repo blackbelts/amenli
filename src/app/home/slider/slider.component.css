@@ -1,0 +1,32 @@
+.ui-panel-images {
+    width: auto;
+    height: inherit;
+    object-fit: contain;
+    position: relative;
+}
+
+.slider {
+    position: relative;
+}
+
+.title-container {
+    position: absolute;
+    z-index: 10;
+    top: 60px;
+    right: 33px;
+}
+
+.btn-more {
+    background: #FF8005;
+    border: none;
+    width: 140px;
+    height: 36px;
+    font-size: 18px;
+    color: white;
+    vertical-align: bottom;
+    border-radius: 20px;
+    /* height: 100%; */
+    font-family: Circle-Light !important;
+    cursor: pointer;
+
+}

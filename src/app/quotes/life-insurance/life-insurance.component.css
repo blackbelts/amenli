@@ -1,0 +1,19 @@
+.form-group {
+    margin: -10px auto 40px 40px !important;
+}
+.btn {
+    margin-top: 0px;
+    color: #fff;
+    border: none;
+    height: 40px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    background: var(--gradiant-one) !important;
+    width: 50% !important;
+    margin-bottom: 2px;
+    font-family: Circle-Light;
+    transition: .5s;
+    line-height: 27px !important;
+}

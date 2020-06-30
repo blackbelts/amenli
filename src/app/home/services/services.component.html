@@ -1,0 +1,76 @@
+<div class="services">
+    <!-- <h2 style="margin-bottom: 0px;">{{ 'services.title' | translate }}</h2>
+    <h4 style="margin-top: 0px;">{{ 'services.title2' | translate }}</h4> -->
+
+
+    <div class="p-grid">
+        <div class="p-col service" (click)="onNavigate('general-accidents')" (click)="showDialog(0)">
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <img src="assets/images/services/healthy.png" class="mob-img" alt="healthy image" width="100" height="100">
+            </div>
+            <h5>{{ 'services.service1' | translate }}</h5>
+            <!-- <p-dialog header="Title" [(visible)]="display" [style]="{width: '97vw',height: '28vh'}" [blockScroll]="false">
+                لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف.
+            </p-dialog> -->
+        </div>
+        <div class="p-col service" (click)="onNavigate('medical-insurance')" (click)="showDialog(1)">
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <img src="assets/images/services/life.png" class="mob-img" alt="healthy image" width="100" height="100">
+            </div>
+            <h5>{{ 'services.service2' | translate }}</h5>
+        </div>
+        <div class="p-col service" (click)="onNavigate('travel-insurance')" (click)="showDialog(2)">
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <img src="assets/images/services/travel.png" class="mob-img" alt="healthy image" width="100" height="100">
+            </div>
+            <h5>{{ 'services.service3' | translate }}</h5>
+        </div>
+        <!-- <div class="p-col service" (click)="onNavigate('marine-insurance')" (click)="showDialog(3)">
+            <div class="overlay">
+                <i class="far fa-comment-dots"></i>
+            </div>
+            <img src="assets/images/services/sea.png" alt="healthy image" width="100" height="100">
+            <h5>{{ 'services.service4' | translate }}</h5>
+        </div> -->
+        <div class="p-col service mob1" (click)="onNavigate('motor-insurance')" (click)="showDialog(4)">
+            <div class="serv">
+                <div class="overlay">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <img src="assets/images/services/motor.png" class="mob-img" alt="healthy image" width="100" height="100">
+            </div>
+            <h5>{{ 'services.service5' | translate }}</h5>
+        </div>
+        <!-- <div class="p-col service" (click)="onNavigate('engineering-insurance')" (click)="showDialog(5)">
+            <div class="overlay">
+                <i class="far fa-comment-dots"></i>
+            </div>
+            <img src="assets/images/services/personal.png" alt="healthy image" width="100" height="100">
+            <h5>{{ 'services.service6' | translate }}</h5>
+        </div> -->
+        <div class="p-col service mob2" (click)="showDialog(6)">
+            <div class="serv">
+                <div class="overlay" (click)="onNavigate('property-insurance')">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <img src="assets/images/services/home.png" class="mob-img" alt="healthy image" width="100" height="100">
+            </div>
+            <h5>{{ 'services.service7' | translate }}</h5>
+        </div>
+    </div>
+    <p-fieldset *ngIf="display == true" >
+        <p-header>
+            <button type="button" class="ui-button-secondary btn" (click)="closeDialog()"> {{title}}  <i class="fas fa-times"></i></button>
+        </p-header>
+        <p style="text-align:start;">{{description}}</p>
+    </p-fieldset>
+</div>

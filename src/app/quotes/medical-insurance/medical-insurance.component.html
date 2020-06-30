@@ -1,0 +1,45 @@
+<form class="form-group" [formGroup]="form">
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.age' | translate }}</label>
+        <p-dropdown [options]="ages" class="input-field" name="age" formControlName="age" (onChange)="submitFormAuto($event.value, 'age')" ></p-dropdown>
+    </div>
+    <div class="form-control">
+        <label class="label-input">{{ 'quotes.gender' | translate }}</label>
+        <p-dropdown [options]="gender" class="input-field" name="gender" formControlName="gender"></p-dropdown>
+    </div>
+    <div class="form-control" *ngIf="val1 == 'yes'">
+        <label class="label-input">{{ 'quotes.name' | translate }}</label>
+        <input type="text" id="name" pInputText class="input-field" name="name" formControlName="name" class="input-field" name="name" placeholder="الاسم">
+    </div>
+    <div class="form-control" *ngIf="val1 == 'yes'">
+        <label class="label-input">{{ 'quotes.phone' | translate }}</label>
+        <input type="text" id="phone" pInputText class="input-field" name="phone" formControlName="phone" class="input-field" name="phone" placeholder="ادخل رقم الموبايل">
+        <p-message severity="error" text="يجب ادخال ارقام فقط" *ngIf="Phone.errors?.pattern"></p-message>
+    </div>
+
+    <!-- <div class="form-control" *ngIf="val1 == 'yes'" >
+            <label class="label-input">{{ 'quotes.phone' | translate }}</label>
+            <p-inputMask [style]="{'direction': 'ltr','background':'#eee','border-radius':'12px','height':'53px','border':'none','font-size':'20px','text-align':'center'}" formControlName="phone" class="input-field" name="phone" placeholder="(9999) 999-9999" mask="(9999) 999-9999"></p-inputMask>
+    </div> -->
+    <div class="form-control">
+        <div class="radio-suffer p-grid" style="margin-right:7px;">
+            {{ 'quotes.qts' | translate }}
+            <div *ngFor="let i of radios">
+                <label> <span> {{i.label}}</span><p-radioButton  type="radio" name="val1" value="i.value" (onClick)="onClick(i.value)" (onClick)="submitFormAuto(form.value.age,'age')"></p-radioButton></label> 
+            </div>
+            <br>
+            <span *ngIf="val1 != 'yes'" style="font-size: 13px;color: currentColor; display: inline-table;">(الأمراض المزمنة مثل أمراض القلب، السرطان بأنواعه. أمراض الجهاز التنفسي المزمنة.)</span>
+            <span *ngIf="val1 == 'yes'" style="font-size: 13px;color: currentColor; display: inline-table;"  class="after">(الأمراض المزمنة مثل أمراض القلب، السرطان بأنواعه. أمراض الجهاز التنفسي المزمنة.)</span>
+
+
+        </div>
+
+    </div>
+    <button *ngIf="val1 == 'yes' && load  != true" class="btn" type="button" (click)="createTicket(form)" [disabled]=" form.value.phone === null">إرسال</button>
+    <p-progressSpinner *ngIf="load  == true"></p-progressSpinner>
+    <p-message severity="success" text="شكرا لاختيارك أمنلي.كوم قسم المبيعات سوف يتواصل معك خلال 24 ساعة لتقديم أفضل سعر مناسب" *ngIf="this.ticket == true"></p-message>
+    <p-message severity="error" text="يجب ملء كامل البيانات" *ngIf="this.notDone == true"></p-message>
+    <br>
+    <span style="font-size: 13px;color: currentColor; display: inline-table;"  class="after">بخصوص الأمراض المزمنة لا يتم حسابها اونلاين، برجاء سجل بيانتك وقسم المبيعات سوف يتواصل معك خلال 24 ساعة لتقديم افضل عرض.</span>
+
+</form>
